@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "projet-12-epic-events"
+version = "0.1.0"
+description = "POC de CRM pour projet 12- Epic Events dans le cadre de formation OC"
+authors = ["bk7191 <bk7191014@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.0.4"
+djangorestframework = "^3.15.1"
+djangorestframework-simplejwt = "^5.3.1"
+flake8-html = "^0.4.3"
+drf-nested-routers = "^0.94.1"
+SQLAlchemy ="2.0.32"
+sentry-sdk = "^2.13.0"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
